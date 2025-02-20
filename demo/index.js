@@ -656,6 +656,7 @@ async function detectSampleImages() {
 
 function setupMenu() {
   const x = [`${document.getElementById('btnDisplay').offsetLeft}px`, `${document.getElementById('btnImage').offsetLeft}px`, `${document.getElementById('btnProcess').offsetLeft}px`, `${document.getElementById('btnModel').offsetLeft}px`];
+  // const x = [`${document.getElementById('btnDisplay').offsetLeft}px`, `${document.getElementById('btnImage').offsetLeft}px`, `${document.getElementById('btnModel').offsetLeft}px`];
 
   const top = `${document.getElementById('menubar').clientHeight}px`;
 
@@ -991,7 +992,7 @@ async function main() {
   }
 
   // ready
-  status('human: ready');
+  status('Motion Aware: Ready');
   document.getElementById('loader').style.display = 'none';
   document.getElementById('play').style.display = 'block';
   document.getElementById('results').style.display = 'none';
